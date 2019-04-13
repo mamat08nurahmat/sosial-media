@@ -1,7 +1,8 @@
 <?php
 
+//print_r('ccccccccccccccccc');die() SQLSTATE[HY000] [2002] No such file or directory;
 require_once("config.php");
-
+//print_r('xxxxxxxxxxxxxxxxxx');die();
 if(isset($_POST['register'])){
 
     // filter data yang diinputkan
