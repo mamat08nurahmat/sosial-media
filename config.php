@@ -1,6 +1,6 @@
 <?php
 
-$db_host = "mariadb001-cluster.cluster-cmeypdk92ow4.us-west-2.rds.amazonaws.com";
+$db_host = "mariadb001.cmeypdk92ow4.us-west-2.rds.amazonaws.com";
 $db_user = "root";
 $db_pass = "mamat123";
 $db_name = "dbsosmed";
