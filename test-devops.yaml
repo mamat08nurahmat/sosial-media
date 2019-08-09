@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: test-devops
+  name: test-devops
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      run: test-devops
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 0
+      maxUnavailable: 1
+  minReadySeconds: 5
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        run: test-devops
+    spec:
+      containers:
+      - image: mamat08nurahmat/test-devops
+        name: test-devops

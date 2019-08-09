@@ -1,8 +1,8 @@
 <?php
 
-$db_host = "mariadb001-cluster.cluster-cmeypdk92ow4.us-west-2.rds.amazonaws.com";
+$db_host = "34.67.111.165";
 $db_user = "root";
-$db_pass = "mamat123";
+$db_pass = "bnisln2019";
 $db_name = "dbsosmed";
 
 try {    
